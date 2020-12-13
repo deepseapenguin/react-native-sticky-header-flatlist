@@ -1,0 +1,27 @@
+{
+  "name": "react-native-sticky-header-flatlist",
+  "version": "1.0.0",
+  "description": "A simple React Native component to display categorical data in flatlist with sticky header",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "homepage": "https://github.com/LeeJiaLe/react-native-sticky-header-flatlist.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LeeJiaLe/react-native-sticky-header-flatlist.git"
+  },
+  "keywords": [
+    "react-native sticky header flatlist",
+    "react-native",
+    "sticky header flatlist",
+    "flatlist",
+    "sticky header",
+    "list",
+    "header",
+    "category",
+    "categorize"
+  ],
+  "author": "Deep Sea Lolicon <leejiale456@gmail.com>",
+  "license": "MIT"
+}
