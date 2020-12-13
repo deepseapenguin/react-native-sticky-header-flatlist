@@ -1,6 +1,6 @@
 {
   "name": "react-native-sticky-header-flatlist",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "A simple React Native component to display categorical data in flatlist with sticky header",
   "main": "index.tsx",
   "scripts": {
