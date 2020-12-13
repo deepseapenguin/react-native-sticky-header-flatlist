@@ -48,7 +48,7 @@ const App = () => {
   return (
     <StickyHeaderFlatlist
       keyExtractor={(_, i) => i + ""}
-      childrendKey={"contactList"}
+      childrenKey={"contactList"}
       renderHeader={({ item }) => {
         return <Text style={{
           padding: 20,
