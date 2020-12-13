@@ -3,7 +3,7 @@ import { FlatList, FlatListProps, ListRenderItem } from 'react-native'
 
 interface StickyHeaderFlatlistProps extends FlatListProps<any> {
   renderHeader: ListRenderItem<any>,
-  childrendKey?: string,
+  childrenKey?: string,
 }
 
 export default (props: StickyHeaderFlatlistProps) => {
@@ -15,7 +15,7 @@ export default (props: StickyHeaderFlatlistProps) => {
     const row = props.data[i]
     indict.push(data.length)
     data.push({...row, isStickyFlatListHeader: true})    
-    data = data.concat(row[props.childrendKey || "children"])
+    data = data.concat(row[props.childrenKey || "children"])
   }
   
   return <FlatList

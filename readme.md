@@ -85,4 +85,4 @@ extended [Flatlist Props](https://reactnative.dev/docs/flatlist#props)
 |:---:|:---:|:---:|
 | `renderHeader` | function | Work like [renderItem in Flatlist ](https://reactnative.dev/docs/flatlist#props), but for render sticky header|
 | `renderItem` | function | Work like [renderItem in Flatlist ](https://reactnative.dev/docs/flatlist#props), but for render children in each category|
-| `childrendKey` | string | Optional parameter, define the key of the children array in each category, default value is "children" |
+| `childrenKey` | string | Optional parameter, define the key of the children array in each category, default value is "children" |
