@@ -9,7 +9,7 @@ interface StickyHeaderFlatlistProps extends FlatListProps<any> {
 
 export default (props: StickyHeaderFlatlistProps) => {
 
-  let data : any = [];
+  let data : any[] = [];
   const indict : number[] = [];
 
   for (const i in props.data) {
